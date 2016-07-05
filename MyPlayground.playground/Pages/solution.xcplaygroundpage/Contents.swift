@@ -29,6 +29,7 @@ func daysInMonth(month: String, days: Int) {
 }
 
 daysInMonth("November", days: 30)
+daysInMonth("November", days: 30)
 
 //: In the [original function definition](@next), `days` was a `String`. It should be an `Int`.
 
@@ -44,3 +45,5 @@ let numBottles = 64
 let holder = "counter top"
 
 beverages(beverage, numberOfBottles: numBottles, holder: holder)
+beverages(beverage, numberOfBottles: numBottles, holder: holder)
+
